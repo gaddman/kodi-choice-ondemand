@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.choice.ondemand"
+version="1.1.0"
+name="ChoiceTV OnDemand"
+provider-name="gaddman">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+  <import addon="script.module.requests"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">ChoiceTV OnDemand Addon</summary>
+  <disclaimer lang="en">This may only work within New Zealand.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  <source>https://github.com/gaddman/kodi-choice-ondemand</source>
+< <news>New fork</news>
+</extension>
+</addon>
